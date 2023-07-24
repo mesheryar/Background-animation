@@ -1,0 +1,44 @@
+body{
+    animation: changeBg 5s infinite alternate linear;
+}
+@keyframes changeBg {
+    0%{
+        background: #ff0000;
+    }
+    10%{
+        background: #ff4000	;
+    }
+    2%{
+        background: #ff8000	;
+    }
+    30%{
+        background: #ffbf00	;
+    }
+    40%{
+        background: #ffff00	;
+    }
+    50%{
+        background: #bfff00	;
+    }
+    60%{
+        background: #80ff00	;
+    }
+    70%{
+        background: #40ff00	;
+    }
+    80%{
+        background: #00ffff	;
+    }
+    90%{
+        background: #0080ff	;
+    }
+    100%{
+        background: #0000ff	;
+    }
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 3px;
+}
